@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    app:layout_constraintHorizontal_bias="0.5"
+    app:layout_constraintVertical_bias="0.95"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/home_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:background="@drawable/active_tab"
+        android:clickable="true"
+        android:onClick="clickHome"
+        android:padding="10dp"
+        android:src="@drawable/home" />
+
+    <ImageView
+        android:id="@+id/chat_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:background="@drawable/no_active_tab"
+        android:clickable="true"
+        android:onClick="clickChat"
+        android:padding="10dp"
+        android:src="@drawable/chat" />
+
+    <ImageView
+        android:id="@+id/map_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:background="@drawable/no_active_tab"
+        android:clickable="true"
+        android:onClick="clickMap"
+        android:padding="10dp"
+        android:src="@drawable/maping" />
+
+    <ImageView
+        android:id="@+id/search_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:background="@drawable/no_active_tab"
+        android:clickable="true"
+        android:onClick="clickSearch"
+        android:padding="10dp"
+        android:src="@drawable/search" />
+
+    <ImageView
+        android:id="@+id/events_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:background="@drawable/no_active_tab"
+        android:clickable="true"
+        android:onClick="clickEvents"
+        android:padding="10dp"
+        android:src="@drawable/events" />
+</LinearLayout>
