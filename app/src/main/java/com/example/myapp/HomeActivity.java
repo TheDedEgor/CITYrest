@@ -26,8 +26,8 @@ public class HomeActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        /*MapKitFactory.setApiKey(MAPKIT_API_KEY);
-        MapKitFactory.initialize(this);*/
+        MapKitFactory.setApiKey(MAPKIT_API_KEY);
+        MapKitFactory.initialize(this);
         setContentView(R.layout.home_page);
         ConstraintLayout placeHolder = findViewById(R.id.home_layout);
         getLayoutInflater().inflate(R.layout.menu, placeHolder);
@@ -43,22 +43,6 @@ public class HomeActivity extends AppCompatActivity {
                 new Animation(Animation.Type.SMOOTH, 5),
                 null);*/
     }
-
-   /* @Override
-    protected void onStop() {
-        // Вызов onStop нужно передавать инстансам MapView и MapKit.
-        mapView.onStop();
-        MapKitFactory.getInstance().onStop();
-        super.onStop();
-    }
-
-    @Override
-    protected void onStart() {
-        // Вызов onStart нужно передавать инстансам MapView и MapKit.
-        super.onStart();
-        MapKitFactory.getInstance().onStart();
-        mapView.onStart();
-    }*/
 
     public void clickHome(View view) {
         LayoutInflater ltInflater = getLayoutInflater();
@@ -115,9 +99,18 @@ public class HomeActivity extends AppCompatActivity {
         ConstraintLayout placeHolder = findViewById(R.id.home_layout);
         placeHolder.removeAllViews();
         ltInflater.inflate(R.layout.menu, placeHolder);
-        //ltInflater.inflate(R.layout.test, placeHolder);
+        ltInflater.inflate(R.layout.test, placeHolder);
 
-
+        //Карта Яндекса
+        // Создание MapView.
+        mapView = (MapView)findViewById(R.id.mapview);
+        MapKitFactory.getInstance().onStart();
+        mapView.onStart();
+        // Перемещение камеры в центр Санкт-Петербурга.
+        mapView.getMap().move(
+                new CameraPosition(TARGET_LOCATION, 14.0f, 0.0f, 0.0f),
+                new Animation(Animation.Type.SMOOTH, 5),
+                null);
 
 
         ImageView imageView = findViewById(R.id.map_image);
