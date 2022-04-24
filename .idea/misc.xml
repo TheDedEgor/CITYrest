@@ -15,15 +15,21 @@
         <entry key="..\:/Desktop/CITYrestApp/app/src/main/res/drawable/no_active_tab.xml" value="0.1605" />
         <entry key="..\:/Desktop/CITYrestApp/app/src/main/res/drawable/rounded_black_stroke.xml" value="0.1605" />
         <entry key="..\:/Desktop/CITYrestApp/app/src/main/res/drawable/rounded_button.xml" value="0.1605" />
+        <entry key="..\:/Desktop/CITYrestApp/app/src/main/res/drawable/rounded_purple_spinner.xml" value="0.1605" />
+        <entry key="..\:/Desktop/CITYrestApp/app/src/main/res/drawable/rounded_white.xml" value="0.1605" />
         <entry key="..\:/Desktop/CITYrestApp/app/src/main/res/drawable/rounded_white_stroke.xml" value="0.1605" />
         <entry key="..\:/Desktop/CITYrestApp/app/src/main/res/layout/chat.xml" value="0.2526041666666667" />
         <entry key="..\:/Desktop/CITYrestApp/app/src/main/res/layout/chat_page.xml" value="0.2526041666666667" />
+        <entry key="..\:/Desktop/CITYrestApp/app/src/main/res/layout/filter.xml" value="0.2526041666666667" />
         <entry key="..\:/Desktop/CITYrestApp/app/src/main/res/layout/first_page_reg.xml" value="0.2526041666666667" />
         <entry key="..\:/Desktop/CITYrestApp/app/src/main/res/layout/home_page.xml" value="0.2526041666666667" />
         <entry key="..\:/Desktop/CITYrestApp/app/src/main/res/layout/main_page.xml" value="0.2526041666666667" />
         <entry key="..\:/Desktop/CITYrestApp/app/src/main/res/layout/map.xml" value="0.2526041666666667" />
         <entry key="..\:/Desktop/CITYrestApp/app/src/main/res/layout/menu.xml" value="0.2526041666666667" />
         <entry key="..\:/Desktop/CITYrestApp/app/src/main/res/layout/profile.xml" value="0.2526041666666667" />
+        <entry key="..\:/Desktop/CITYrestApp/app/src/main/res/layout/second_page_reg.xml" value="0.2526041666666667" />
+        <entry key="..\:/Desktop/CITYrestApp/app/src/main/res/layout/spinner_item.xml" value="0.2526041666666667" />
+        <entry key="..\:/Desktop/CITYrestApp/app/src/main/res/layout/spinner_item_on_map.xml" value="0.2526041666666667" />
         <entry key="..\:/Desktop/CITYrestApp/app/src/main/res/layout/test.xml" value="0.2526041666666667" />
         <entry key="..\:/Desktop/CITYrestApp/app/src/main/res/layout/user_chat.xml" value="0.2526041666666667" />
         <entry key="..\:/Desktop/CITYrestApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1605" />

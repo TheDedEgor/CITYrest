@@ -104,4 +104,10 @@
         <item>2003</item>
         <item>2004</item>
     </string-array>
+    <string-array name="events">
+        <item>Мероприятие</item>
+    </string-array>
+    <string-array name="nearby">
+        <item>Поблизости</item>
+    </string-array>
 </resources>

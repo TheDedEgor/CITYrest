@@ -21,6 +21,9 @@
         <activity android:name=".FirstRegActivity"></activity>
         <activity android:name=".SecondRegActivity"></activity>
         <activity android:name=".HomeActivity"></activity>
+        <activity android:name=".FilterActivity"
+            android:theme="@style/Theme.AppCompat.Dialog">
+        </activity>
     </application>
 
 </manifest>
