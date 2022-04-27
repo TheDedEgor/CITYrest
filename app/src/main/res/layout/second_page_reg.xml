@@ -135,5 +135,6 @@
         android:background="@drawable/rounded_button"
         android:fontFamily="Montserrat"
         android:text="Зарегистрироваться"
-        android:textColor="@color/white" />
+        android:textColor="@color/white"
+        android:onClick="clickRegistered"/>
 </LinearLayout>

@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.EditText;
 import android.widget.Spinner;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -17,6 +18,8 @@ public class FirstRegActivity extends AppCompatActivity {
 
     public void clickContinue(View view) {
         Intent intent = new Intent(FirstRegActivity.this, SecondRegActivity.class);
+        intent.putExtra("email",((EditText)findViewById(R.id.email_text)).getText().toString());
+        intent.putExtra("password",((EditText)findViewById(R.id.password_text)).getText().toString());
         startActivity(intent);
     }
 }

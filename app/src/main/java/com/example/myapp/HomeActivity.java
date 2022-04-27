@@ -163,6 +163,7 @@ public class HomeActivity extends AppCompatActivity {
         ConstraintLayout placeHolder = findViewById(R.id.home_layout);
         placeHolder.removeAllViews();
         ltInflater.inflate(R.layout.menu, placeHolder);
+        ltInflater.inflate(R.layout.events, placeHolder);
 
         ImageView imageView = findViewById(R.id.events_image);
         imageView.setBackgroundResource(R.drawable.active_tab);
@@ -176,8 +177,14 @@ public class HomeActivity extends AppCompatActivity {
         imageView.setBackgroundResource(R.drawable.no_active_tab);
     }
 
+
     public void clickFilter(View view) {
         Intent intent = new Intent(HomeActivity.this, FilterActivity.class);
+        startActivity(intent);
+    }
+
+    public void clickNews(View view) {
+        Intent intent = new Intent(HomeActivity.this, NewsActivity.class);
         startActivity(intent);
     }
 }

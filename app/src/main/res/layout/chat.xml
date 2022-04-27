@@ -31,23 +31,11 @@
             android:paddingLeft="15dp"
             android:textSize="15sp" />
 
-        <FrameLayout
+        <ImageView
             android:layout_width="wrap_content"
             android:layout_height="40dp"
-            android:layout_marginLeft="10dp">
+            android:src="@drawable/ic_add_chat"/>
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:src="@drawable/ellipse" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:src="@drawable/bi_plus" />
-        </FrameLayout>
     </LinearLayout>
     <LinearLayout
         android:id="@+id/add_chat_user"

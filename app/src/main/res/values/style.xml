@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="mytheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/background_filter_theme</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+</resources>

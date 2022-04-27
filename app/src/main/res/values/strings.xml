@@ -110,4 +110,13 @@
     <string-array name="nearby">
         <item>Поблизости</item>
     </string-array>
+    <string-array name="ages">
+        <item>Возраст</item>
+    </string-array>
+    <string-array name="prices">
+        <item>Цена</item>
+    </string-array>
+    <string-array name="durations">
+        <item>Продолжительность</item>
+    </string-array>
 </resources>

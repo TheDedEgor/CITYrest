@@ -53,7 +53,7 @@
         android:id="@+id/unread_message"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/unread"
+        android:src="@drawable/ic_unread"
         android:visibility="visible"
         app:layout_constraintLeft_toRightOf="@id/user_name"
         app:layout_constraintTop_toTopOf="parent"
