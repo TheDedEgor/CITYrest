@@ -19,7 +19,7 @@
             android:text="Регистрация"
             android:textSize="25sp"
             android:gravity="center"
-            android:fontFamily="Montserrat"
+            android:fontFamily="@font/montserrat"
             android:textColor="@color/white"
             android:layout_marginTop="25dp"
             android:layout_marginBottom="25dp"/>
@@ -31,11 +31,12 @@
             android:layout_marginRight="22dp"
             android:textSize="20sp"
             android:padding="5dp"
-            android:fontFamily="Montserrat"
+            android:fontFamily="@font/montserrat"
             android:hint="Введите email"
+            android:textColorHint="#C4C4C4"
             android:inputType="textEmailAddress"
             android:background="@drawable/rounded_white"
-            android:drawableLeft="@drawable/ico_email_left"
+            android:drawableLeft="@drawable/ic_email_left"
             android:drawablePadding="10dp"/>
         <EditText
             android:id="@+id/password_text"
@@ -45,7 +46,8 @@
             android:layout_marginLeft="22dp"
             android:layout_marginRight="22dp"
             android:textSize="20sp"
-            android:fontFamily="Montserrat"
+            android:textColorHint="#C4C4C4"
+            android:fontFamily="@font/montserrat"
             android:padding="10dp"
             android:hint="Пароль"
             android:inputType="textPassword"
@@ -55,9 +57,10 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginTop="15dp"
-            android:fontFamily="Montserrat"
+            android:fontFamily="@font/montserrat"
             android:layout_marginLeft="22dp"
             android:layout_marginRight="22dp"
+            android:textColorHint="#C4C4C4"
             android:layout_marginBottom="40dp"
             android:textSize="20sp"
             android:padding="10dp"
@@ -74,6 +77,6 @@
         android:textColor="@color/white"
         android:layout_marginTop="25dp"
         android:layout_gravity="center"
-        android:fontFamily="Montserrat"
+        android:fontFamily="@font/montserrat"
         android:onClick="clickContinue"/>
 </LinearLayout>

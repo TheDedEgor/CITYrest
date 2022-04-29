@@ -3,38 +3,39 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <Spinner
-        android:id="@+id/spinner_events"
-        android:layout_width="150dp"
-        android:layout_height="35dp"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="20dp"
-        android:background="@drawable/rounded_purple_spinner"
-        android:translationZ="1dp"/>
-    <Spinner
-        android:id="@+id/spinner_nearby"
-        android:layout_width="130dp"
-        android:layout_height="35dp"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintLeft_toRightOf="@id/spinner_events"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="20dp"
-        android:background="@drawable/rounded_purple_spinner"
-        android:translationZ="1dp"/>
-    <ImageView
-        android:id="@+id/filter_image"
-        android:layout_width="17dp"
-        android:layout_height="15dp"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintLeft_toRightOf="@id/spinner_nearby"
-        android:layout_marginTop="29dp"
-        android:layout_marginLeft="20dp"
-        android:src="@drawable/ic_filter"
-        android:translationZ="1dp"
-        android:clickable="true"
-        android:onClick="clickFilter"/>
+        android:orientation="horizontal"
+        android:translationZ="5dp"
+        android:background="#D9FFFFFF">
+        <Spinner
+            android:id="@+id/spinner_events"
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/rounded_purple_spinner"/>
+        <Spinner
+            android:id="@+id/spinner_nearby"
+            android:layout_width="135dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/rounded_purple_spinner"/>
+        <ImageView
+            android:id="@+id/filter_image"
+            android:layout_width="17dp"
+            android:layout_height="15dp"
+            android:layout_marginTop="29dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ic_filter"
+            android:clickable="true"
+            android:onClick="clickFilter"/>
+    </LinearLayout>
+
     <com.yandex.mapkit.mapview.MapView
         android:id="@+id/mapview"
         android:layout_width="match_parent"

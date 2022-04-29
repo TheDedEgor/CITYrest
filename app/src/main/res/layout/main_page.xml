@@ -47,10 +47,10 @@
             android:layout_alignParentTop="true"
             android:layout_marginLeft="71dp"
             android:layout_marginTop="67dp"
-            android:background="@drawable/grad_color_main"
-            android:fontFamily="Montserrat"
+            android:background="@drawable/background_color_main"
+            android:fontFamily="@font/krown"
             android:gravity="center"
-            android:text="CITYrest"
+            android:text="CITYREST"
             android:textColor="@color/white"
             android:textSize="32sp" />
 
@@ -64,9 +64,11 @@
         android:layout_marginTop="15dp"
         android:layout_marginRight="50dp"
         android:background="@drawable/rounded_white_stroke"
-        android:drawableLeft="@drawable/login"
+        android:drawableLeft="@drawable/ic_login"
         android:drawablePadding="7dp"
         android:hint="Логин"
+        android:textColorHint="#C4C4C4"
+        android:fontFamily="@font/montserrat"
         android:inputType="textEmailAddress"
         android:padding="10dp"
         android:textSize="20sp" />
@@ -74,12 +76,14 @@
     <EditText
         android:id="@+id/pass_text"
         android:layout_width="match_parent"
+        android:textColorHint="#C4C4C4"
         android:layout_height="50dp"
         android:layout_marginLeft="50dp"
         android:layout_marginTop="15dp"
         android:layout_marginRight="50dp"
+        android:fontFamily="@font/montserrat"
         android:background="@drawable/rounded_white_stroke"
-        android:drawableLeft="@drawable/password"
+        android:drawableLeft="@drawable/ic_password"
         android:drawablePadding="7dp"
         android:hint="Пароль"
         android:inputType="textPassword"
@@ -93,8 +97,8 @@
         android:layout_gravity="center"
         android:layout_marginTop="25dp"
         android:background="@drawable/rounded_button"
-        android:fontFamily="Montserrat"
-        android:text="Вход"
+        android:fontFamily="@font/montserrat"
+        android:text="Войти"
         android:textColor="@color/white"
         android:onClick="clickInput"/>
 
@@ -105,10 +109,10 @@
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
         android:clickable="true"
-        android:fontFamily="Montserrat"
+        android:fontFamily="@font/montserrat"
         android:gravity="center"
         android:text="Еще не зарегистрированы?"
-        android:textColor="@color/black"
+        android:textColor="#976FCE"
         android:onClick="clickRegistration"/>
 
     <ImageView

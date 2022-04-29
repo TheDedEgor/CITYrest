@@ -22,6 +22,8 @@
         <activity android:name=".SecondRegActivity"></activity>
         <activity android:name=".HomeActivity"></activity>
         <activity android:name=".NewsActivity"></activity>
+        <activity android:name=".SubscribersActivity"></activity>
+        <activity android:name=".UserProfileActivity"></activity>
         <activity
             android:name=".FilterActivity"
             android:theme="@style/mytheme"></activity>

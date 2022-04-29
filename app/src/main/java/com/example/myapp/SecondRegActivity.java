@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 import org.json.simple.JSONObject;
 
@@ -37,8 +38,8 @@ public class SecondRegActivity extends AppCompatActivity {
         spinner.setAdapter(adapter);
     }
 
-    public void clickRegistered(View view) throws IOException {
-        /*Requests requests = new Requests();
+    public void clickRegistered(View view){
+        Requests requests = new Requests();
         String name = ((EditText) findViewById(R.id.name_text)).getText().toString();
         String surname = ((EditText) findViewById(R.id.surname_text)).getText().toString();
         String date = ((Spinner) findViewById(R.id.spinner_years)).getSelectedItem().toString() + "-" + ((Spinner) findViewById(R.id.spinner_months)).getSelectedItem().toString() + "-" + ((Spinner) findViewById(R.id.spinner_days)).getSelectedItem().toString();
@@ -46,10 +47,15 @@ public class SecondRegActivity extends AppCompatActivity {
         Bundle arguments = getIntent().getExtras();
         String email = arguments.get("email").toString();
         String password = arguments.get("password").toString();
-        JSONObject object = requests.register(name,surname,sex,date,email,password);
-        System.out.println(object);
-        System.out.println(object.get("result"));*/
-        Intent intent = new Intent(SecondRegActivity.this, HomeActivity.class);
-        startActivity(intent);
+        requests.register(name,surname,sex,date,email,password);
+        JSONObject object = requests.getResult();
+        if((boolean)object.get("result")){
+            Intent intent = new Intent(SecondRegActivity.this, HomeActivity.class);
+            startActivity(intent);
+        }
+        else {
+            Toast toast = Toast.makeText(this, "Данный логин уже был изпользован при регистрации!\nПопробуйте другой!",Toast.LENGTH_LONG);
+            toast.show();
+        }
     }
 }

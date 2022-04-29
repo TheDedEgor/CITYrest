@@ -2,9 +2,10 @@
 <TextView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:drawableRight="@drawable/ic_vector_black"
+    android:drawableRight="@drawable/ic_vector_gray"
     android:drawablePadding="5dp"
     android:gravity="center"
     android:padding="5dp"
-    android:textColor="@color/black"
+    android:fontFamily="@font/montserrat"
+    android:textColor="#C4C4C4"
     android:textSize="20sp" />

@@ -4,20 +4,29 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/drawable/background_black.xml" value="0.1605" />
+        <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/drawable/background_btn_user_profile.xml" value="0.1605" />
         <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/drawable/background_filter.xml" value="0.176" />
         <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/drawable/background_grad_color_profile.xml" value="0.1605" />
         <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/drawable/background_gray.xml" value="0.1605" />
+        <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/drawable/background_menu.xml" value="0.1605" />
         <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/drawable/background_profile.xml" value="0.1605" />
+        <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/drawable/grad_color_main.xml" value="0.1605" />
         <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/drawable/grad_color_reg.xml" value="0.1605" />
         <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/drawable/ic_add_chat.xml" value="0.1605" />
+        <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/drawable/ic_baseline_settings.xml" value="0.1605" />
+        <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/drawable/ic_chat.xml" value="0.1605" />
         <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/drawable/ic_close.xml" value="0.1605" />
+        <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/drawable/ic_email.xml" value="0.1605" />
+        <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/drawable/ic_email_left.xml" value="0.1605" />
         <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/drawable/ic_events.xml" value="0.1605" />
         <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/drawable/ic_heart.xml" value="0.1605" />
         <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/drawable/ic_home.xml" value="0.1605" />
         <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/drawable/ic_image_1.xml" value="0.1605" />
         <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/drawable/ic_login.xml" value="0.1605" />
         <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/drawable/ic_map.xml" value="0.1605" />
+        <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/drawable/ic_news.xml" value="0.1605" />
         <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/drawable/ic_password.xml" value="0.1605" />
+        <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/drawable/ic_ph_newspaper_fill.xml" value="0.1605" />
         <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/drawable/ic_plus.xml" value="0.1605" />
         <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/drawable/ic_qwerty.xml" value="0.1605" />
         <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/drawable/ic_settings.xml" value="0.1605" />
@@ -25,29 +34,37 @@
         <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/drawable/ic_svg_editor_image.xml" value="0.1605" />
         <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/drawable/ic_svg_editor_image__1_.xml" value="0.1605" />
         <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/drawable/ic_svg_editor_image__2_.xml" value="0.1605" />
+        <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/drawable/ic_test_home.xml" value="0.1605" />
         <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/drawable/ic_unread.xml" value="0.1605" />
         <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/drawable/ic_vector.xml" value="0.1605" />
+        <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/drawable/ic_vector_black.xml" value="0.1605" />
         <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/drawable/ic_vector_purple.xml" value="0.1605" />
         <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/drawable/ic_vector_white.xml" value="0.1605" />
         <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/drawable/ico_email_left.xml" value="0.1605" />
         <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/drawable/rounded_black_stroke.xml" value="0.1605" />
         <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/drawable/rounded_white.xml" value="0.1605" />
+        <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/drawable/rounded_white_stroke.xml" value="0.1605" />
+        <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/drawable/shadow.xml" value="0.1605" />
         <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/drawable/test.xml" value="0.1605" />
-        <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/layout/chat.xml" value="0.2526041666666667" />
+        <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/layout/chat.xml" value="0.6293436293436293" />
         <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/layout/events.xml" value="0.4" />
         <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/layout/filter.xml" value="0.2526041666666667" />
         <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/layout/first_page_reg.xml" value="0.2526041666666667" />
+        <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/layout/home_page.xml" value="0.2526041666666667" />
         <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/layout/item_news.xml" value="0.2526041666666667" />
         <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/layout/main_page.xml" value="0.2526041666666667" />
         <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/layout/map.xml" value="0.2526041666666667" />
         <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/layout/menu.xml" value="0.2526041666666667" />
         <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/layout/news.xml" value="0.2526041666666667" />
         <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/layout/profile.xml" value="0.2" />
+        <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/layout/search.xml" value="0.2526041666666667" />
         <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/layout/second_page_reg.xml" value="0.2526041666666667" />
         <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/layout/spinner_item_in_filter.xml" value="0.2526041666666667" />
         <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/layout/spinner_item_in_registration.xml" value="0.2526041666666667" />
         <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/layout/spinner_item_on_map.xml" value="0.2526041666666667" />
-        <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/layout/user_chat.xml" value="0.2526041666666667" />
+        <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/layout/subscribers_page.xml" value="0.2526041666666667" />
+        <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/layout/user_chat.xml" value="0.4" />
+        <entry key="..\:/Desktop/AndroidProjects/CITYrestApp/app/src/main/res/layout/user_profile_page.xml" value="0.2526041666666667" />
         <entry key="..\:/Desktop/CITYrestApp/app/src/main/res/drawable/active_tab.xml" value="0.1605" />
         <entry key="..\:/Desktop/CITYrestApp/app/src/main/res/drawable/bottom_stroke.xml" value="0.1605" />
         <entry key="..\:/Desktop/CITYrestApp/app/src/main/res/drawable/circle.xml" value="0.1605" />

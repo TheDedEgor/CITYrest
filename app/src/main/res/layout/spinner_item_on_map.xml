@@ -6,5 +6,6 @@
     android:drawablePadding="15dp"
     android:gravity="center"
     android:padding="5dp"
+    android:fontFamily="@font/montserrat"
     android:textColor="@color/white"
     android:textSize="15sp" />

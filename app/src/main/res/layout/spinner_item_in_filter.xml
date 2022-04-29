@@ -5,4 +5,5 @@
     android:drawableRight="@drawable/ic_vector_purple"
     android:paddingLeft="10dp"
     android:textColor="@color/black"
+    android:fontFamily="@font/montserrat"
     android:textSize="13sp" />
